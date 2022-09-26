@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "title": "",
+        "answers" : [
+            {
+                "title": "Басейни на природних водоймищах",
+                "img": "games/game-15/img1.png",
+                "id": 1
+            },
+            {
+                "title": "Штучні басейни",
+                "img": "games/game-15/img2.png",
+                "id": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "",
+        "answers" : [
+            {
+                "title": "Відкриті штучні басейни",
+                "img": "games/game-15/img3.png",
+                "id": 3
+            },
+            {
+                "title": "Критий штучний басейн",
+                "img": "games/game-15/img4.jpg",
+                "id": 4
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "",
+        "answers" : [
+            {
+                "title": "Купально-оздоровчий басейн",
+                "img": "games/game-15/img5.png",
+                "id": 5
+            },
+            {
+                "title": "Навчальний басейн",
+                "img": "games/game-15/img6.jpg",
+                "id": 6
+            },
+            {
+                "title": "Навчально-спортивні басейни",
+                "img": "games/game-15/img7.jpg",
+                "id": 7
+            }
+        ]
+    }
+]

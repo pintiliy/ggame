@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "title": "Обери зображення видів плавання, представлених у програмі Олімпійських ігор",
+        "answers" : [
+            {
+                "title": "синхронне плавання",
+                "img": "games/game-2/img1.jpg"
+            },
+            {
+                "title": "прикладне плавання",
+                "img": "games/game-2/img2.jpg"
+            },
+            {
+                "title": "100 м вільним стилем",
+                "img": "games/game-2/img3.jpg",
+                "true": true
+            },
+            {
+                "title": "200 м батерфляєм",
+                "img": "games/game-2/img4.jpg",
+                "true": true
+            },
+            {
+                "title": "200 м комплексним плаванням",
+                "img": "games/game-2/img5.jpg",
+                "true": true
+            },
+            {
+                "title": "200 м брасом",
+                "img": "games/game-2/img6.jpg",
+                "true": true
+            }
+        ]
+    }
+]

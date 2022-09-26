@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Матеріально-технічне забезпечення підготовки плавців",
+        "answers" : [
+            {
+                "img": "games/game-14/img1.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img2.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img3.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img4.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img5.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img6.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img7.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img8.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img9.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img10.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img11.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img12.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img13.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img14.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img15.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img16.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img17.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img18.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img19.png",
+                "true": true
+            },
+            {
+                "img": "games/game-14/img20.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img21.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img22.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img23.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img24.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img25.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img26.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img27.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img28.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img29.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img30.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img31.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img32.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img33.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img34.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img35.png",
+                "true": false
+            },
+            {
+                "img": "games/game-14/img36.png",
+                "true": false
+            }
+        ]
+    }
+]
