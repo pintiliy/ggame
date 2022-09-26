@@ -174,6 +174,9 @@ export default class Core {
         var rect2 = new createjs.Shape();
         rect2.graphics.beginFill("#F2CB05").drawRect(0, 0, 300, 50);
 
+        var rect3 = new createjs.Shape();
+        rect3.graphics.beginFill("#F2CB05").drawRect(0, 0, 300, 50);
+
         var text = new createjs.Text("Повторити гру", "32px Arial", "#040000");
         text.set({
             lineWidth: 450,
@@ -184,12 +187,28 @@ export default class Core {
         text.x += 50;
         text.y += 10;
 
+        var text2 = new createjs.Text("Закрити гру", "32px Arial", "#040000");
+        text2.set({
+            lineWidth: 450,
+            // textAlign: "center"
+        });
+        text2.hitArea = rect3;
+        let bg4 = rect2.clone();
+        text2.x += 50;
+        text2.y += 10;
+
         this.buttonContainer = new createjs.Container();
         this.buttonContainer.cursor = "pointer";
         this.buttonContainer.x = this.width / 2 - 100;
         this.buttonContainer.y = this.height / 2 - 25;
+        this.buttonContainer.addChild(bg4, text);
 
-        this.buttonContainer.addChild(bg3, text);
+        this.buttonContainer2 = new createjs.Container();
+        this.buttonContainer2.cursor = "pointer";
+        this.buttonContainer2.x = this.width / 2 - 100;
+        this.buttonContainer2.y = this.height / 2 + 40;
+
+        this.buttonContainer2.addChild(bg3, text2);
         
         this.gameOverContainer = new createjs.Container();
 
@@ -199,19 +218,19 @@ export default class Core {
         let errors = this.fails ? `Кількість помилок – ${this.fails}` : '';
         this.renderTitle(`Молодець! Гра завершена з результатом, ${this.timerText}. ${errors}`);
         this.stage.addChild(this.buttonContainer);
+        this.stage.addChild(this.buttonContainer2);
         this.stage.setChildIndex(this.gameOverContainer, 9999999999999);
         this.stage.update();
-
-        setTimeout(() => {
-            this.stage.removeChild(this.buttonContainer);
-            this.stage.update();
-        }, 3000);
 
         this.buttonContainer.addEventListener("click", () => {
             this.clearAll();
             this.gameOverVariable = false;
             this.renderTimer();
             this.stage.removeChild(this.gameOverContainer);
+        });
+
+        this.buttonContainer2.addEventListener("click", () => {
+            window.location.href = "/";
         });
     }
 

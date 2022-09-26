@@ -16,6 +16,6 @@ router.get('/:file',function(req,res){
 app.use('/', router);
 app.use(express.static('public'));
 
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 3000);
 
-console.log('Running at Port 80');
+console.log('Running at Port 3000');
