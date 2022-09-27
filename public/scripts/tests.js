@@ -47,7 +47,7 @@ export default class Tests {
                     .attr('id', `item-${i}-${j}`)
                     .attr('name', `radio[${i}][]`)
                     .attr('value', j);
-                answerForCopy.find('label').text(`${!!answer.true || ''} - ${letters[j]} ${answer.title}`).attr('for', `item-${i}-${j}`);
+                answerForCopy.find('label').text(`${letters[j]} ${answer.title}`).attr('for', `item-${i}-${j}`);
                 copy.find('.items').append(answerForCopy);
                 if (answer.true) {
                     this.trueAnswers.push(j);
